@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Estilos-->
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link id="theme" rel="stylesheet" type="text/css" href="CSS/blue.css">
+
+<!--Slider-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!--Slider JS Function-->
+    <script Type="text/javascript" src="js/main.js"></script>
+    <title>Maquetacion</title>
+    <!--Moment-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js" integrity="sha512-LGXaggshOkD/at6PFNcp2V2unf9LzFq6LE+sChH7ceMTDP0g2kn6Vxwgg7wkPP7AAtX+lmPqPdxB47A0Nz0cMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+<div id="theme-selector">
+    <div id="to-red"></div>
+    <div id="to-green"></div>
+    <div id="to-blue"></div>
+</div>
+    <!--Contenedor Global-->
+    <section id="global">
+        <!--Contenido-->
+        <header>
+            <div id="logo">
+                <!--Representa los hijos que puede tener el header-->
+                Cristian Gonzalez
+            </div>
+            <div class="clearfix"></div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="INDEX.HTML">INICIO</a></li>
+                    <li><a href="biografia.html">BIOGRAFIA</a></li>
+                    <li><a href="portafolio.html">PORTAFOLIO</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                    <li><a href="perfil.html">PERFIL</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="slider">
+        <div class="bxslider">
+            <div><img src="img/cat-1285634_640.png" title="Gato"></div>
+            <div><img src="img/cow-384628_640.jpg" title="Vaca"></div>
+            <div><img src="img/mallard-3747770_640.jpg" title="Pato"></div>
+          </div>
+        </div>
+        <section id="contenido">
+            <div id="posts">
+                <!--<article>
+                    <h2>Titulo estatico</h2>
+                    <span class="date">Fecha de publicacion</span>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem Ipsum.
+                    </p>
+                    <br>
+                    <a href="#" class="button-more">Articulo completo</a>
+                </article>-->
+            </div>
+            <aside id="sidebar">
+
+                <div id="about">
+                    <h2>¿Quien soy?</h2>
+                    <img src="img/yomero.jpg" alt="rockstar">
+                    <p>
+                        Yo merengues
+                    </p>
+                </div>
+
+                <div id="login">
+                    <h4><span>Inicio de sesion</span></h4>
+                    <form>
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" id="form_name">
+                        <label for="email">Correo</label>
+                        <input type="text" name="email" id="">
+                        <label for="pass">Contraseña</label>
+                        <input type="password" name="pass" id=""> <br>
+                        <input type="submit" value="enviar">
+                    </form>
+                </div>
+                <!--Footer-->
+            </aside>
+            <div class="clearfix"></div>
+        </section>
+    </section>
+    <footer>Cristian A. Gonzalez Rodriguez &copy;
+        <a href="https://www.facebook.com/"><img id="image" src="img/IconoFacebook.png"></a>
+        <a href="https://www.instagram.com/"><img id="image" src="img/IconoInstagram.png"></a>
+        <a href="https://www.twitch.tv/"><img id="image" src="img/IconoTwitch.png"></a>
+    </footer>
+</body>
+
+</html>

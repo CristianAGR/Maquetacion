@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+body{
+    background: url("../img/labrador-retriever-1210559_640.jpg");
+    background-attachment: fixed;
+}
+
+#global{
+    width: 65%;
+    height: 0px auto;
+    margin: 0px auto;
+    padding: 30px;
+    background:white;
+    box-shadow: 0px 0px 0px 1px grey;
+}
+#logo{
+    font-family: Verdana, Arial;
+    font-size: 30px;
+    letter-spacing: 4px;
+    line-height: 80px;
+    color: white;
+    text-align: center;
+    width: 450px;
+    height: 80px;
+    margin-bottom: 20px;
+    float: left;
+    text-transform: uppercase;
+}
+#menu{
+    font-family: Helvetica, Arial;
+    background: #333;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#menu ul{
+    display: flex;
+    line-height: 46px;
+    list-style: none;
+}
+#menu ul li{
+    line-height: 46px;
+    display: inline-block;
+    transition: 300ms;
+}
+
+#menu ul li a{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#posts{
+    width: 60%;
+    float: left;
+    font-family: Verdana, Arial;
+}
+.post{
+    padding: 5px;
+}
+.post .date{
+    display: block;
+    color: gray;
+    margin-top: 10px;
+}
+.post h2{
+    margin-top: 20px;
+    font-size: 30px;
+    color: #333;
+}
+.post p{
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+.button-more{
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 70px;
+}
+#sidebar{
+    font-family: Helvetica, Arial;
+    width: 30%;
+    float: right;
+}
+#sidebar h4{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+    color: #333;
+}
+#sidebar img{
+    width: 100%;
+}
+#sidebar p{
+    text-align: justify;
+}
+.bx-wrapper,
+.bx-viewport{
+    height: 250px !important;   
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="password"]{
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+form input [type="submit"]{
+    background: #eee;
+    padding: 5px;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+footer{
+    font-family: Helvetica, Arial;
+    color: darkblue;
+    height: 47px;
+    background: rgba(51, 51, 51, 0.7);
+    margin:0px auto;
+    width: 65%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0px;
+    line-height: 45px;
+    text-align: center;
+}
+footer #image{
+    padding-left: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+#theme-selector{
+    position: fixed;
+    top: 50%;
+    background: rgba(51, 51, 51, 0.7);
+    width: 50px;
+    height: 100px;
+}
+#to-green,
+#to-red,
+#to-blue{
+width: 25px;
+height: 25px;
+border: 1px solid white;
+display: block;
+margin: 0 auto;
+margin-top: 5px;
+margin-bottom: 5px;
+cursor: pointer;
+}
+#to-green{
+    background: #235e3d;
+}
+#to-blue{
+    background: #15178b;
+}
+#to-red{
+    background: #ca3413;
+}
+#box {
+    width: 60%;
+    float: left;
+    margin-top: 40px;
+  }
+  #form_contact {
+    width: 50%;
+    margin-top: 10px;
+  }
+  #form_contact label {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+  }
