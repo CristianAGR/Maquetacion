@@ -47,7 +47,34 @@
         </header>
 
         <section id="contenido">
-            Contacto
+            <div id="box">
+                <h2>Contacto</h2>
+      <form action="" id="form_contact" method="POST">
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="" />
+
+        <label for="lastname">Apellidos</label>
+        <input type="text" name="lastname" id="" />
+
+        <label for="email">e-mail</label>
+        <input type="email" name="email" id="" />
+
+        <label for="genero">Genero</label>
+        <select name="genero" id="">
+          <option value="M">Masculino</option>
+          <option value="F">Femenino</option>
+          <option value="N">Neutro</option>
+        </select>
+
+        <label for="date">Fecha de nacimiento</label>
+        <input type="text" name="date" id="" />
+
+        <label for="age">Edad</label>
+        <input type="number" name="age" id="" />
+
+        <input type="submit" value="Enviar" />
+      </form>
+            </div>
             <aside id="sidebar">
 
                 <div id="about">
@@ -58,33 +85,17 @@
                     </p>
                 </div>
 
-                <div id="box">
-                    <h2>Contacto</h2>
-          <form action="" id="form_contact" method="POST">
-            <label for="name">Nombre</label>
-            <input type="text" name="name" id="" />
-
-            <label for="lastname">Apellidos</label>
-            <input type="text" name="lastname" id="" />
-
-            <label for="email">e-mail</label>
-            <input type="email" name="email" id="" />
-
-            <label for="genero">Genero</label>
-            <select name="genero" id="">
-              <option value="M">Masculino</option>
-              <option value="F">Femenino</option>
-              <option value="N">Neutro</option>
-            </select>
-
-            <label for="date">Fecha de nacimiento</label>
-            <input type="text" name="date" id="" />
-
-            <label for="age">Edad</label>
-            <input type="number" name="age" id="" />
-
-            <input type="submit" value="Enviar" />
-          </form>
+                <div id="login">
+                    <h4><span>Inicio de sesion</span></h4>
+                    <form>
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" id="form_name">
+                        <label for="email">Correo</label>
+                        <input type="text" name="email" id="">
+                        <label for="pass">Contraseña</label>
+                        <input type="password" name="pass" id=""> <br>
+                        <input type="submit" value="enviar">
+                    </form>
                 </div>
                 <!--Footer-->
             </aside>
