@@ -19,6 +19,9 @@
     <!--Moment-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js" integrity="sha512-LGXaggshOkD/at6PFNcp2V2unf9LzFq6LE+sChH7ceMTDP0g2kn6Vxwgg7wkPP7AAtX+lmPqPdxB47A0Nz0cMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--JQuery validator-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
 </head>
 
 <body>
@@ -51,13 +54,13 @@
                 <h2>Contacto</h2>
       <form action="" id="form_contact" method="POST">
         <label for="name">Nombre</label>
-        <input type="text" name="name" id="" />
+        <input type="text" name="name" id="" data-validation="alphanumeric"/>
 
         <label for="lastname">Apellidos</label>
-        <input type="text" name="lastname" id="" />
+        <input type="text" name="lastname" id="" data-validation="alphanumeric"/>
 
         <label for="email">e-mail</label>
-        <input type="email" name="email" id="" />
+        <input type="email" name="email" id="" data-validation="email"/>
 
         <label for="genero">Genero</label>
         <select name="genero" id="">
@@ -67,10 +70,17 @@
         </select>
 
         <label for="date">Fecha de nacimiento</label>
-        <input type="text" name="date" id="" />
+        <input type="text" name="date" id="" data-validation="date"/>
 
         <label for="age">Edad</label>
-        <input type="number" name="age" id="" />
+        <input type="number" name="age" id="" data-validation="number"/>
+    
+        <label for="tecnologies">Tecnologias</label>
+        JAVA<input type="checkbox" name="tecnologia" value="JAVA" data-validation="required"><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        JS<input type="checkbox" name="tecnologia" value="JAVA" data-validation="required"><br>
+        &nbsp;
+        CSS<input type="checkbox" name="tecnologia" value="JAVA" data-validation="required"><br>
 
         <input type="submit" value="Enviar" />
       </form>

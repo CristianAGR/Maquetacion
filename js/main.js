@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  if(window.location.href.indexOf("INDEX") >=1){
+  if(window.location.href.indexOf("INDEX") >-1){
   $(function () {
     $('.bxslider').bxSlider({
       mode: 'fade',
@@ -9,7 +9,7 @@ $(document).ready(function () {
     });
   });
   }
-  if(window.location.href.indexOf("INDEX") >=1){
+  if(window.location.href.indexOf("INDEX") >-1){
   //posts
   var posts = [
     {
@@ -95,6 +95,13 @@ else{
   alert("Ingrese con su nombre");
 }
 
+
+//Activar Jquery validator
+if(window.location.href.indexOf("contacto")>-1){
+$.validate({
+  lang: "es",
+});
+}
 
 });
 
